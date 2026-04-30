@@ -5,18 +5,18 @@ const HERO_IMG = "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2
 const FARM_IMG = "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/d57d292f-94fa-4915-9641-66b35d5fc4f8.jpg";
 
 const CATALOG = [
-  { id: 1, name: "Клубника садовая", category: "ягоды", season: "лето", price: "320 ₽/кг", emoji: "🍓", badge: "Хит" },
-  { id: 2, name: "Манго Альфонсо", category: "экзотика", season: "круглый год", price: "480 ₽/кг", emoji: "🥭", badge: "" },
-  { id: 3, name: "Томаты черри", category: "овощи", season: "лето", price: "180 ₽/кг", emoji: "🍅", badge: "Новинка" },
-  { id: 4, name: "Апельсины Навел", category: "цитрусы", season: "зима", price: "140 ₽/кг", emoji: "🍊", badge: "" },
-  { id: 5, name: "Авокадо Хасс", category: "экзотика", season: "круглый год", price: "260 ₽/шт", emoji: "🥑", badge: "" },
-  { id: 6, name: "Арбуз Астраханский", category: "ягоды", season: "лето", price: "45 ₽/кг", emoji: "🍉", badge: "Сезон!" },
-  { id: 7, name: "Брокколи свежая", category: "овощи", season: "весна", price: "160 ₽/кг", emoji: "🥦", badge: "" },
-  { id: 8, name: "Виноград Мускат", category: "ягоды", season: "осень", price: "280 ₽/кг", emoji: "🍇", badge: "" },
-  { id: 9, name: "Лимоны Сицилия", category: "цитрусы", season: "круглый год", price: "200 ₽/кг", emoji: "🍋", badge: "" },
-  { id: 10, name: "Перец Ратунда", category: "овощи", season: "осень", price: "130 ₽/кг", emoji: "🫑", badge: "" },
-  { id: 11, name: "Дыня Колхозница", category: "экзотика", season: "лето", price: "95 ₽/кг", emoji: "🍈", badge: "" },
-  { id: 12, name: "Яблоки Антоновка", category: "фрукты", season: "осень", price: "110 ₽/кг", emoji: "🍎", badge: "Местные" },
+  { id: 1, name: "Клубника садовая", category: "ягоды", season: "лето", price: "320 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/fc6c28f5-c480-4fab-9290-7068877d1424.jpg", badge: "Хит" },
+  { id: 2, name: "Манго Альфонсо", category: "экзотика", season: "круглый год", price: "480 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/b6163aa7-9502-43dc-946b-e48fe3cc6521.jpg", badge: "" },
+  { id: 3, name: "Томаты черри", category: "овощи", season: "лето", price: "180 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/04c3fdf8-dd9d-4861-ba61-014fe1c51add.jpg", badge: "Новинка" },
+  { id: 4, name: "Апельсины Навел", category: "цитрусы", season: "зима", price: "140 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/5b94321a-477e-4cad-b3b2-d4c06f3a09c7.jpg", badge: "" },
+  { id: 5, name: "Авокадо Хасс", category: "экзотика", season: "круглый год", price: "260 ₽/шт", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/d86b27cb-28b6-4192-a4fe-9022eb5ce888.jpg", badge: "" },
+  { id: 6, name: "Арбуз Астраханский", category: "ягоды", season: "лето", price: "45 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/2eebba73-9cc5-40ed-8c45-1d408edae9e0.jpg", badge: "Сезон!" },
+  { id: 7, name: "Брокколи свежая", category: "овощи", season: "весна", price: "160 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/bdc5f44c-9e37-491b-93f8-27f7bdbb3bb1.jpg", badge: "" },
+  { id: 8, name: "Виноград Мускат", category: "ягоды", season: "осень", price: "280 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/92507f42-e711-4c3e-af80-9a845a38f47f.jpg", badge: "" },
+  { id: 9, name: "Лимоны Сицилия", category: "цитрусы", season: "круглый год", price: "200 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/197f0233-0807-4aab-a292-8475c0d3e819.jpg", badge: "" },
+  { id: 10, name: "Перец Ратунда", category: "овощи", season: "осень", price: "130 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/591b82cd-b58a-4f8f-8a39-f476887b511f.jpg", badge: "" },
+  { id: 11, name: "Дыня Колхозница", category: "экзотика", season: "лето", price: "95 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/c54f2deb-f14d-491e-a044-a086082515a4.jpg", badge: "" },
+  { id: 12, name: "Яблоки Антоновка", category: "фрукты", season: "осень", price: "110 ₽/кг", img: "https://cdn.poehali.dev/projects/0948110f-1e25-4e81-ad38-abda2bd7e702/files/6c293c90-e60c-4cd5-9d5a-bc43e1f752c8.jpg", badge: "Местные" },
 ];
 
 const CATEGORIES = ["все", "фрукты", "овощи", "ягоды", "цитрусы", "экзотика"];
@@ -272,7 +272,7 @@ export default function Index() {
                 >
                   {item.badge && (
                     <span
-                      className="absolute top-3 right-3 text-white text-xs font-bold px-2 py-1 rounded-full"
+                      className="absolute top-3 right-3 text-white text-xs font-bold px-2 py-1 rounded-full z-10"
                       style={{
                         backgroundColor:
                           item.badge === "Хит" ? "#c62828" :
@@ -282,7 +282,9 @@ export default function Index() {
                       {item.badge}
                     </span>
                   )}
-                  <div className="text-5xl mb-3 text-center">{item.emoji}</div>
+                  <div className="w-full h-32 mb-3 rounded-xl overflow-hidden bg-gray-50">
+                    <img src={item.img} alt={item.name} className="w-full h-full object-cover hover:scale-110 transition-transform duration-300" />
+                  </div>
                   <h3 className="font-semibold text-sm mb-1 leading-tight" style={{ color: "#1a1a0e" }}>{item.name}</h3>
                   <p className="text-gray-400 text-xs capitalize mb-3">{item.category} · {item.season}</p>
                   <div className="flex items-center justify-between">
