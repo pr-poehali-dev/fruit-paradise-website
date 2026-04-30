@@ -398,12 +398,11 @@ export default function Index() {
 
           <div className="rounded-3xl p-8 border" style={{ backgroundColor: "rgba(255,255,255,0.05)", borderColor: "rgba(255,255,255,0.1)" }}>
             <h3 className="font-oswald text-2xl text-white font-bold mb-6">Способы оплаты</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {[
                 { icon: "CreditCard", label: "Банковская карта" },
                 { icon: "Smartphone", label: "СБП / Телефон" },
                 { icon: "Wallet", label: "Электронные кошельки" },
-                { icon: "Landmark", label: "Рассрочка 0%" },
               ].map((pay) => (
                 <div
                   key={pay.label}
